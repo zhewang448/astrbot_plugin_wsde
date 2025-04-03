@@ -12,7 +12,7 @@ class MyPlugin(Star):
         super().__init__(context)
     
     @filter.command("wsde")
-    async def wsde_handler(self, event: AstrMessageEvent, message: str,language:str='0'):
+    async def wsde_handler(self, event: AstrMessageEvent, message: str=None,language:str='0'):
         """/wsde (语音名字) (jp/cn 默认日文)    随机维什戴尔游戏内语音。"""
         if language == "cn" or language == "1":
              language = "voice_cn"
@@ -23,7 +23,7 @@ class MyPlugin(Star):
              language = "voice_jp"
         voice_path =current_dir + "\\" + language  # 拼接voice子目录
         voice_content = os.listdir(voice_path)  # 获取voice子目录下所有文件
-        if not message:
+        if not message or message.strip() == "":
             voice_num = random.randint(0, len(voice_content)-1)
             voice_name = voice_content[voice_num]
         else:
