@@ -6,7 +6,7 @@ import os
 current_dir = os.path.abspath(os.path.dirname(__file__))
 voice_content = os.listdir(current_dir + "\\" + "voice_jp")   # 当前脚本所在目录
 
-@register("astrbot_plugin_wsde", "bushikq", "维什戴尔随机语音插件", "2.0.0")
+@register("astrbot_plugin_wsde", "bushikq", "维什戴尔随机语音插件", "2.1.0")
 class MyPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
