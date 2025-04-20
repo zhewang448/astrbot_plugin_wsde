@@ -11,4 +11,3 @@
 /wsde (语音名字) (jp/cn 默认日文)   #随机维什戴尔游戏内语音。
 /wsde_list    #列出所有可用的语音。
 
-![f4072e3c85080b68ab699e566d2374d0_720](https://github.com/user-attachments/assets/d5627b08-e18b-4918-9723-af18ff97d214)
