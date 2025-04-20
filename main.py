@@ -4,7 +4,7 @@ import random
 import os
 from typing import List, Optional
 
-@register("astrbot_plugin_wsde", "bushikq", "维什戴尔随机语音插件", "2.2.0")
+@register("astrbot_plugin_wsde", "bushikq", "维什戴尔随机语音插件", "2.2")
 class MyPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
