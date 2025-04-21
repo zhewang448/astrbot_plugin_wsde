@@ -1,7 +1,7 @@
 # astrbot_plugin_wsde
 ## 访问统计
+## <a href="https://count.getloli.com/"><img src="https://count.getloli.com/get/@:astrbot_plugin_wsde?theme=rule34"></a>
 
-## <a href="https://count.getloli.com/"><img src="https://github.com/zhewang448/astrbot_plugin_wsde?theme=rule34"></a>
 ## 2.2版本更新：
 - 优化代码结构
 
