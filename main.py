@@ -4,7 +4,7 @@ import random
 import os
 from typing import List, Optional
 
-@register("astrbot_plugin_wsde", "bushikq", "维什戴尔随机语音插件", "2.2")
+@register("astrbot_plugin_wsde", "bushikq", "维什戴尔随机语音插件", "2.3")
 class MyPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
@@ -79,7 +79,7 @@ class MyPlugin(Star):
                 return
 
             voice_names = [name[:-4] for name in sorted(voice_files)]
-            yield event.plain_result(f"维什戴尔{language}语音列表：\n" + "\n".join(voice_names))
+            yield event.plain_result(f"维什戴尔{language}语音列表：\n" + " \ ".join(voice_names))
 
         except Exception as e:
             yield event.plain_result(f"获取语音列表时出错：{str(e)}")

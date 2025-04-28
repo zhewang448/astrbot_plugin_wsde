@@ -2,6 +2,6 @@ name: astrbot_plugin_wsde
 desc: 这是随机维什戴尔游戏内语音的插件。
 help: /wsde (语音名字) (jp/cn 默认日文) #随机维什戴尔游戏内语音。
 help: /wsde_list #列出所有可用的语音。
-version: v2.2
+version: v2.3
 author: bushikq
 repo: https://github.com/zhewang448/astrbot_plugin_wsde
