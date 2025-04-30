@@ -2,6 +2,9 @@
 ## 访问统计
 ## <a href="https://count.getloli.com/"><img src="https://count.getloli.com/get/@:astrbot_plugin_wsde?theme=rule34"></a>
 
+## 如果想要播放全方舟角色语音
+移步https://github.com/zhewang448/astrbot_plugin_mrfz
+
 ## 功能
 /wsde (语音名字) (jp/cn 默认日文)   #随机维什戴尔游戏内语音。
 /wsde_list    #列出所有可用的语音。
